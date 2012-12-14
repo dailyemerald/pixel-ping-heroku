@@ -13,5 +13,5 @@ heroku config:add ENDPOINT=http://somebackend/endpoint
 If you're using WordPress, you could drop the image tag toward the bottom of &lt;body> with something like this:
 
 <code>
-&lt;img src="http://<your-app-name>.herokuapp.com/pixel.gif?key=<?php the_permalink()"></img>
+&lt;img src="http://<your-app-name>.herokuapp.com/pixel.gif?key=<?php the_permalink()?>"></img>
 </code>
