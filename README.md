@@ -15,3 +15,9 @@ If you're using WordPress, you could drop the image tag toward the bottom of &lt
 <code>
 &lt;img src="http://<your-app-name>.herokuapp.com/pixel.gif?key=<?php the_permalink()?>"></img>
 </code>
+
+Then check out the logs:
+
+<code>
+heroku logs -t
+</code>
